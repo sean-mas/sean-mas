@@ -5,14 +5,15 @@ Product person turning builder. Berlin.
 Four and a half years as a digital freelancer and five years in product roles.
 Each layer paid into the next. Freelancing taught me to work out what a client
 actually needed before anyone wrote it down. Product work turned that into
-discipline: requirements precise enough to test, which is CPRE-certified habit and
-also, as it happens, exactly the skill AI-driven development runs on.
+discipline: requirements precise enough to test (CPRE-certified), which turns out
+to be exactly what building reliable AI systems demands.
 
 The thing I am best at is **building alignment**. In regulated, data-heavy
-environments, engineering, compliance, legal and the business each show up with a
+environments, engineering, compliance, legal and the business each arrive with a
 different definition of done, and getting all of them behind one direction is what
 decides whether a product ships at all. That is not a soft skill in that setting.
-It is the constraint everything else has to pass through.
+It is the constraint everything else has to pass through, and it is the reason the
+things I have owned actually shipped.
 
 What was missing was building the systems myself. I am closing that gap now with a
 full-time AI engineering programme alongside a part-time M.Sc. in Data Science and
@@ -20,24 +21,25 @@ Management.
 
 ## What I work on
 
-**How AI changes the way software gets built, and how you would know whether it
-helped.** I use coding agents daily on my own work, and I have seen what adopting
-them looks like inside an enterprise codebase where the constraints are real. The
-interesting question is not whether the output looks convincing. It is whether the
-workflow actually made anything better, and that is much harder to answer than the
-current enthusiasm suggests.
+**Evaluation and observability for AI systems in production.** This is the corner I
+keep coming back to. A demo that works is not a system that works, and the gap
+between the two is where AI products fail: quietly, months in, when a model drifts,
+an edge case compounds, or something that was accurate in a notebook stops being
+accurate on real traffic. I defined evaluation workflows for LLM features in a
+regulated wealth-management product, where "it looks good" is not an answer anyone
+can sign off on.
 
-**Evaluation and observability for AI systems.** This is the corner I keep coming
-back to. On the product side I defined evaluation workflows for LLM features in a
-regulated wealth-management context, and that is where I learned that "does this
-system actually work" is the question everyone assumes somebody else has already
-answered. I want to build the instruments that answer it: the things that turn
-model behaviour into something you can measure, compare, and defend to somebody who
-was not in the room.
+So the question I want to work on is the hard version of it: **does this system work
+well in production, and can you prove it still holds months from now?** That means
+building the instruments rather than collecting anecdotes. Evals that catch
+regressions before users do. Observability that shows what the model actually did,
+not what it was supposed to do. Evidence solid enough to put in front of an auditor,
+a regulator, or a sceptical executive who was not in the room.
 
 **Next.** My next portfolio project is on AI evals. Alongside it I build my own
-products end to end, because shipping the whole thing is the fastest way to find
-the holes in my stack.
+products end to end, front to back, because that is what turns a product manager
+into a well-rounded product engineer: someone who can specify the thing, build it,
+ship it, and prove it works.
 
 **Stack.** Python and FastAPI, PostgreSQL, Docker, and TypeScript with Next.js and
 Node. The front-end half is deliberate rather than incidental: it is what the eval
