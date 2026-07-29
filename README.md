@@ -2,7 +2,7 @@
 
 Product person turning builder. Berlin.
 
-Four and a half years as a digital freelancer, then five years in product roles.
+Four and a half years as a digital freelancer and five years in product roles.
 Each layer paid into the next. Freelancing taught me to work out what a client
 actually needed before anyone wrote it down. Product work turned that into
 discipline: requirements precise enough to test, which is CPRE-certified habit and
