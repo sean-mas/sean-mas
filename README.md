@@ -2,48 +2,46 @@
 
 Product person turning builder. Berlin.
 
-Five years in product roles: AI Product Manager at Oliver Wyman, Product Owner at
-Axel Springer and at Rhenus Logistics, and a co-founded startup before those. Four
-and a half years freelancing as a digital consultant before I moved into product.
-Mostly regulated, data-heavy environments, where the work was turning fuzzy ideas
-into requirements precise enough to test, and turning technical detail into
-something the rest of the room could argue with.
+Four and a half years as a digital freelancer, then five years in product roles.
+Each layer paid into the next. Freelancing taught me to work out what a client
+actually needed before anyone wrote it down. Product work turned that into
+discipline: requirements precise enough to test, which is CPRE-certified habit and
+also, as it happens, exactly the skill AI-driven development runs on.
 
-What was missing was building the systems myself. I am closing that gap now: a
+The thing I am best at is **building alignment**. In regulated, data-heavy
+environments, engineering, compliance, legal and the business each show up with a
+different definition of done, and getting all of them behind one direction is what
+decides whether a product ships at all. That is not a soft skill in that setting.
+It is the constraint everything else has to pass through.
+
+What was missing was building the systems myself. I am closing that gap now with a
 full-time AI engineering programme alongside a part-time M.Sc. in Data Science and
 Management.
 
 ## What I work on
 
-Reading, thinking and building around AI-assisted software development and how to
-evaluate it. Two questions that turn out to be the same question: how much do
-coding agents actually help, in my own work and in an enterprise codebase, and how
-would anyone know?
+**How AI changes the way software gets built, and how you would know whether it
+helped.** I use coding agents daily on my own work, and I have seen what adopting
+them looks like inside an enterprise codebase where the constraints are real. The
+interesting question is not whether the output looks convincing. It is whether the
+workflow actually made anything better, and that is much harder to answer than the
+current enthusiasm suggests.
 
-The gap that got me interested: published estimates of how much AI coding
-assistants help range from **-19%** (METR's randomised trial) to **+9,200%** (a
-widely shared single-developer experiment). Both numbers come from serious people.
-The field has no shared measuring device, so every claim is an anecdote.
+**Evaluation and observability for AI systems.** This is the corner I keep coming
+back to. On the product side I defined evaluation workflows for LLM features in a
+regulated wealth-management context, and that is where I learned that "does this
+system actually work" is the question everyone assumes somebody else has already
+answered. I want to build the instruments that answer it: the things that turn
+model behaviour into something you can measure, compare, and defend to somebody who
+was not in the room.
 
-That is the problem I want to work on: the instruments that turn model behaviour
-into something you can measure, compare, and defend to somebody who is not in the
-room.
+**Next.** My next portfolio project is on AI evals. Alongside it I build my own
+products end to end, because shipping the whole thing is the fastest way to find
+the holes in my stack.
 
-The current build is **Agent Trace Lab**, an open-source workbench. It records what
-an AI coding agent actually did (Claude Code hooks plus OpenTelemetry), checks the
-run against quality gates, and makes the session inspectable: timeline, trajectory
-graph, session scorecard.
-
-The part I have not seen anywhere else is treating gate results as first-class
-trace events overlaid on the agent's trajectory, so you can answer where the time
-and money went, how much was rework, and whether a guardrail caught the problem or
-a human did.
-
-Python, FastAPI, PostgreSQL, Next.js, TypeScript, Docker.
-
-Alongside that I build my own products end to end. Shipping the whole thing is the
-fastest way to find the holes in my stack, and I would rather be a product engineer
-who can build the thing than one who can only specify it.
+**Stack.** Python and FastAPI, PostgreSQL, Docker, and TypeScript with Next.js and
+Node. The front-end half is deliberate rather than incidental: it is what the eval
+and LLM tooling teams I want to work with actually build on.
 
 ## Projects
 
@@ -55,15 +53,14 @@ who can build the thing than one who can only specify it.
 
 ## Background
 
-- **Product:** requirements engineering (CPRE), product ownership (CSPO),
-  stakeholder management, product analytics
+- **Product craft:** requirements engineering (CPRE), product ownership (CSPO),
+  stakeholder alignment, product analytics
 - **Shipped:** evaluation workflows for LLM features in a regulated
-  wealth-management product, an Azure enterprise landing zone adopted by 100+ IT
-  services, a RAG assistant concept, product analytics at Rhenus
-- **Studying:** M.Sc. Data Science and Management (DBU Berlin) and AI Engineering
-  at SPICED Academy
-- **Before that:** B.A. Intercultural Management and Communication, with semesters
-  in Seoul and Xi'an
+  wealth-management product, an enterprise cloud landing zone adopted by 100+ IT
+  services, a RAG assistant concept, product analytics for data-driven
+  prioritisation
+- **Studying:** M.Sc. Data Science and Management (DBU Berlin), AI Engineering at
+  SPICED Academy
 - **Languages:** German and English native, Spanish fluent
 
 ## Elsewhere
